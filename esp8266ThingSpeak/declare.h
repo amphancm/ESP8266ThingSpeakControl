@@ -5,6 +5,7 @@ Adafruit_SSD1306 display(OLED_RESET);
 #define XPOS 0
 #define YPOS 1
 #define DELTAY 2
+#define SW_MODE 0
 
 #if (SSD1306_LCDHEIGHT != 64)
 #error("Height incorrect, please fix Adafruit_SSD1306.h!");
